@@ -1,0 +1,132 @@
+/* app css stylesheet */
+
+.menu {
+  list-style: none;
+  border-bottom: 0.1em solid black;
+  margin-bottom: 2em;
+  padding: 0 0 0.5em;
+}
+
+.menu:before {
+  content: "[";
+}
+
+.menu:after {
+  content: "]";
+}
+
+.menu > li {
+  display: inline;
+}
+
+.menu > li:before {
+  content: "|";
+  padding-right: 0.3em;
+}
+
+.menu > li:nth-child(1):before {
+  content: "";
+  padding: 0;
+}
+html {
+  background-color: #34495e;
+}
+.wrap {
+  font-family: 'helvetica neue';
+  background-color: #34495e;
+}
+.container {
+  margin-top: 70px;
+}
+ul {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 20px;
+}
+.movie {
+  background-color: #ecf0f1;
+  padding: 20px 10px;
+  height: 230px;
+  border-bottom: 1px solid #bdc3c7;
+  border-left: 1px solid #bdc3c7;
+}
+.watched-true {
+  color: gray;
+}
+h1 {
+  color: #d35400;
+  font-family: 'Poiret One', 'Helvetica Neue';
+  font-weight: 200;
+}
+h4 {
+  font-style: italic;
+  color: #d35400;
+  /*padding-bottom: 30px;*/
+  height: 40px;
+}
+h5 {
+  margin-bottom: 0;
+}
+form input {
+  font-size: 20px;
+  font-weight: 200;
+  background-color: #ecf0f1;
+}
+form {
+  margin-bottom: 20px;
+}
+.info {
+  margin: 10px 0;
+  height: 60px;
+}
+p {
+  margin: 0;
+}
+a {
+  text-decoration: none;
+  color: #d35400;
+}
+.enter {
+  margin-bottom: 6px;
+}
+.interactions {
+  display: block;
+  width: 100%;
+  height: 100px;
+}
+.done {
+  position: relative;
+  display: inline-block;
+  margin-right: 15%;
+}
+.rate {
+  position: relative;
+  display: inline-block;
+  vertical-align: bottom;
+}
+
+#remaining {
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
